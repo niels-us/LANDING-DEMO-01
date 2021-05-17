@@ -1,0 +1,161 @@
+.resume {
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    min-height: 220px;
+}
+
+.resume_card {
+    position: absolute;
+    width: 60%;
+    top: -90px;
+    height:280px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 1px #333;
+    border-radius: 5px;
+}
+
+.resume_card_logo {
+    position: relative;
+    top: -25px;
+}
+
+.resume_card_title h1 {
+    position: relative;
+    top: -8px;
+    font-family: 'OpenSans-Bold';
+}
+
+.resume_card_txt p {
+    position: relative;
+    padding-bottom: 10px;
+    color: #555;
+    font-family: 'OpenSans-light';
+}
+
+.resume_btn {
+    position: relative;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    margin: 4% 10%;
+    font-family: 'OpenSans-Regular' ;
+}
+
+.resume_btn_primary {
+    background-color: #3DB3AA;
+    border-radius: 20px;
+    padding: 15px 35px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.resume_btn_primary:hover {
+    background-color: #146962;
+}
+
+.resume_btn_primary a {
+    text-decoration: none;
+    color: white;
+}
+
+.resume_btn_second {
+    display: flex;
+    position: relative;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    padding: 13px 30px 13px 45px;
+    transition: all .3s ease;
+}
+
+.resume_btn_second:hover {
+    background-color: #ddd;
+}
+
+.resume_btn_second img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: -10px;
+}
+
+.resume_btn_second .mobile{
+    display:none;
+}
+
+.resume_btn_second a {
+    text-decoration: none;
+    color: #666;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+/* @media screen and (max-width: 480px) {
+    .resume_card {
+        width: 100%;
+    }
+} */
+
+@media screen and (max-width: 480px) {
+
+    body{
+        font-size: .7rem;
+    }
+
+    .resume_card {
+        width: 90%;
+        top:-50px;
+        padding: 10px 16px;
+    }  
+
+    .resume_card_logo img{
+        width:50px;
+        height: 50px;
+
+    }
+    
+    .resume_card_txt p{
+        line-height:25px;
+        font-size: .8rem;
+    }
+
+    .resume_btn_primary{
+        font-size: 1rem;
+    }
+
+    .resume_btn_second{
+        padding: 10px 0 10px 0;
+        margin: 0 30px 0 0px;
+    }
+    
+    .resume_btn_second .desktop{
+        display:none;
+    }
+
+    .resume_btn_second .mobile{
+        display:inline;      
+       
+    }
+
+}
+
+/* 
+@media screen and (max-width: 900px) {
+    .resume_card {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 1400px) {
+    .resume_card {
+        width: 70%;
+    }
+} */
+
+/* @media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  } */

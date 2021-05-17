@@ -1,0 +1,11 @@
+@import url('./banner.css');
+@import url('./resume.css');
+@import url('./font.css');
+@import url('./datos.css');
+@import url('./about.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,57 @@
+
+.banner {
+    background-image: url(../images/image-hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    transform: scale(1);
+}
+
+.banner_menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+
+    position: relative;
+    padding-right: 6%;
+    padding-top: 4%;
+
+    font-family: 'OpenSans-regular' ;
+}
+
+.banner_menu li {
+    padding: 0 2%;
+    font-size: 1.1rem;
+}
+
+
+.banner_menu li:first-child {
+    position: absolute;
+    left: 6%;
+    font-size: 2.2rem;
+    font-family: 'OpenSans-bold' ;
+}
+
+.banner_menu li a {
+    text-decoration: none;
+    color: #eee;
+    transition: all .2s ease;
+}
+
+.banner_menu li:not(:first-child):hover a {
+    border-bottom: 5px solid #3DB3AA;
+}
+
+
+@media screen and (max-width: 600px) {
+    .banner {
+        background-image: url(../images/image-hero-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 275px;
+        padding: 25px 0;
+    }
+
+
+}

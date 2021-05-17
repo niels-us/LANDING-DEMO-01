@@ -1,0 +1,120 @@
+.about {
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    min-height: 1460px;
+}
+
+.about_card {
+    width: 60%;
+    min-height: 1400px;
+    background-color: white;
+    box-shadow: 0 0 1px #333;
+    border-radius: 5px;
+    padding: 0 6%;
+}
+
+.about_titulo {
+    font-family: 'OpenSans-Bold';
+    text-align: left;
+    font-size: 1rem;
+    margin: 10% 0 6% 0;
+
+}
+
+.about_texto {
+    font-family: 'OpenSans-light';
+    line-height: 30px;
+    margin: 6% 0 0 0;
+
+}
+
+.about_card_one {
+    box-shadow: 0 0 2px #333;
+    border-radius: 5px;
+    padding: 0 6%;
+    margin: 6% 0;
+}
+
+.about_card_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6% 0 0 0;
+}
+
+.about_card_title h2 {
+    font-family: 'OpenSans-Bold';
+
+}
+
+.about_card_title h4 {
+    font-family: 'OpenSans-bold';
+    color: #3DB3AA;
+
+}
+
+.about_card_texto {
+    font-family: 'OpenSans-light';
+    padding: 6% 0 6% 0;
+    line-height: 30px;
+
+}
+
+.about_card_link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 6% 0;
+    font-family: 'OpenSans-bold';
+    height: 90px;
+}
+
+
+.about_card_link h2 {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    transition: all .3s ease;
+}
+
+.about_card_link h2:not(:last-child):hover {
+    font-size: 2.5rem;
+}
+
+.about_card_link h2 span {
+    font-family: 'OpenSans-light';
+    font-size: 1rem;
+}
+
+.about_card_link a {
+    font-family: 'OpenSans-bold';
+    text-decoration: none;
+    padding: 2% 3%;
+    border-radius: 20px;
+    background-color: #3DB3AA;
+    color: white;
+    font-size: .8rem;
+    transition: all .3s ease;
+}
+
+.about_card_link a:hover {
+    background-color: #146962;
+}
+
+.about_card_one:last-child {
+    color: #CBCBCB;
+}
+
+.about_card_one:last-child a {
+    background: #CBCBCB;
+}
+
+.about_card_one:last-child h2 {
+    color: #818181;
+}
+
+.about_card_one:last-child h4 {
+    color: #CDE5E1;
+}
